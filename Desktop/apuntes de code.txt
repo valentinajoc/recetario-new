@@ -1,0 +1,48 @@
+codigos html:
+<¡DOCTYPE>:para identificar el tipo de documento.
+<html lang="es"> , o "en"
+<head>:para encabezar la pagina.
+
+
+
+
+
+
+
+
+
+padding (relleno), el espacio alrededor del contenido. En el ejemplo siguiente, es el espacio alrededor del texto del párrafo.
+border (marco), la línea que se encuentra fuera del relleno.
+margin (margen), el espacio fuera del elemento que lo separa de los demás.
+
+
+
+padding (relleno), el espacio alrededor del contenido. En el ejemplo siguiente, es el espacio alrededor del texto del párrafo.
+border (marco), la línea que se encuentra fuera del relleno.
+margin (margen), el espacio fuera del elemento que lo separa de los demás.
+tres cajas puestas una dentro de otra. De fuera a dentro están etiquetadas con el margen, el borde y el relleno
+
+En esta sección también se utiliza:
+
+width (ancho del elemento)
+background-color, el color de fondo del contenido y del relleno
+color, el color del contenido del elemento (generalmente texto)
+text-shadow: coloca una sombra difuminada en el texto dentro del elemento
+display: selecciona el modo de visualización para el elemento (no te preocupes de esto por ahora)
+
+
+PARA TRABAJAR CON GIT :
+°GIT INIT:El comando git init crea un nuevo repositorio de Git. Puede utilizarse para convertir un proyecto existente y sin versión en un repositorio de Git, o para inicializar un nuevo repositorio vacío. La mayoría de los demás comandos de Git no se encuentran disponibles fuera de un repositorio inicializado, por lo que este suele ser el primer comando que se ejecuta en un proyecto nuevo.
+
+°GIT ADD:El comando git add añade un cambio del directorio de trabajo en el entorno de ensayo. De este modo, indica a Git que quieres incluir actualizaciones en un archivo concreto en la próxima confirmación. Sin embargo, git add no afecta al repositorio de manera significativa: en realidad, los cambios no se registran hasta que ejecutas git commit.
+
+°GIT COMMIT- M "nombre cambios":El comando git commit captura una instantánea de los cambios preparados en ese momento del proyecto. Las instantáneas confirmadas pueden considerarse como versiones "seguras" de un proyecto: Git no las cambiará nunca a no ser que se lo pidas expresamente. Antes de ejecutar git commit, se utiliza el comando git add para pasar o "preparar" los cambios en el proyecto que se almacenarán en una confirmación. Estos dos comandos, git commit y git add, son dos de los que se utilizan más frecuentemente.
+
+°GIT BRANCH:El comando git branch es en realidad una especie de herramienta de gestión de ramas. Puede listar las ramas que tienes, crear una nueva rama, eliminar ramas y cambiar el nombre de las ramas.
+La mayor parte de [ch03-git-branching] está dedicada al comando branch y es utilizado a lo largo de todo el capítulo. En primer lugar, lo introducimos en Crear una Rama Nueva y examinamos la mayor parte de sus otras características (listar y borrar) en Gestión de Ramas.
+
+°GIT PUSH:El comando git push se usa para cargar contenido del repositorio local a un repositorio remoto. El envío es la forma de transferir confirmaciones desde tu repositorio local a un repositorio remoto.
+
+-pasos para guardar cambios: cambio + git add .+git commit-m"nombre" +git push.
+
+CODE en consola: para codificar en la consola y no en vs code. Ej:code index.html
